@@ -59,7 +59,7 @@
 #             st.error("Failed to get a response from the Gemini API.")
 #     except Exception as e:
 #         st.error(f"Error processing the image: {e}")
-# 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
+
 
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
